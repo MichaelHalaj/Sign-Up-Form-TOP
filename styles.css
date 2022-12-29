@@ -3,12 +3,22 @@ body{
     margin: 0;
 
 }
-#background{
-    width: 100px;
-}
+/*#background{
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}*/
 .logo-section{
+   /* background-image: url("images/ryan-loughlin-beach.jpg");*/
+   background-color: aqua;
+   height: 100vh;
+    position: relative;
     flex-grow: 1;
+    flex-shrink: 1;
 }
 .form-section{
-    flex-grow: 3;
+    flex-grow: 2;
+    flex-shrink: 1;
 }
