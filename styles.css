@@ -88,10 +88,19 @@ input{
 }
 
 input:focus-visible{
-    outline: 2px solid rgba(72, 72, 255, .6);
-    border: 2px solid blue;
+    outline: 2px solid rgba(72, 72, 255, .4);
+    border: 2px solid rgb(52, 52, 172);
 }
 input:invalid{
-    outline: 2px solid rgb(201, 6, 6);
+    outline: 2px solid rgb(201, 6, 6, .4);
     border: 2px solid red;
+}
+legend{
+    margin-bottom: var(--left-margin);
+    margin-top: calc(3 * var(--left-margin));
+}
+.create{
+    margin-left: var(--left-margin);
+    padding: 0;
+    background-color: green;
 }
