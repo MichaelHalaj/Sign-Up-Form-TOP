@@ -113,13 +113,16 @@ input:focus-visible{
     outline: 2px solid rgba(72, 72, 255, .4);
     border: 2px solid rgb(52, 52, 172);
 }
-input:invalid{
+input:required{
+    border: 1px solid #bbbbbb;
+}
+input:invalid:focus{
     outline: 2px solid rgb(201, 6, 6, .4);
     border: 2px solid red;
 }
-input:user-invalid{
-    outline: 2px solid rgb(201, 6, 6, .4);
-    border: 2px solid red;
+input:valid{
+    outline: 2px solid rgba(78, 255, 72, 0.4);
+    border: 2px solid rgb(0, 177, 0);
 }
 .description:first-child{
     margin-top: 100px;
