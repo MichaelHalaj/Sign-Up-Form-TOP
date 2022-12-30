@@ -20,8 +20,10 @@ body{
 }*/
 .logo-section{
    /* background-image: url("images/ryan-loughlin-beach.jpg");*/
-   background-color: aqua;
+   /*background-color: aqua;*/
+   background-image: url("images/rabeh-friha-mountain.jpg");
    /*height: 100vh;*/
+   background-size: 100% 100%;
    align-items: stretch;
     position: relative;
     flex-grow: 1;
@@ -32,6 +34,10 @@ body{
     background-color: rgba(0,0,0,0.25);
     /*width: 33vw;*/
     margin-top: 200px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 16px;
 }
 fieldset{
     border: 0 solid black;
@@ -95,6 +101,12 @@ input:invalid{
     outline: 2px solid rgb(201, 6, 6, .4);
     border: 2px solid red;
 }
+.description:first-child{
+    margin-top: 100px;
+}
+.legend{
+    margin-bottom: var(--left-margin);
+}
 legend{
     margin-bottom: var(--left-margin);
     margin-top: calc(3 * var(--left-margin));
@@ -102,5 +114,5 @@ legend{
 .create{
     margin-left: var(--left-margin);
     padding: 0;
-    background-color: green;
+    background-color: rgb(224, 88, 9);
 }
