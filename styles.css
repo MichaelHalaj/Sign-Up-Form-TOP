@@ -143,7 +143,9 @@ legend{
     background: linear-gradient(300deg, rgb(168, 69, 11), rgb(197, 130, 6));
 }
 .login{
-    margin-left: var(--left-margin);
-    margin-top: var(--left-margin);
+    margin: var(--left-margin);
     font-size: .6em;
+}
+.login a{
+    color: rgb(230, 156, 19);
 }
