@@ -1,10 +1,13 @@
+*{
+    font-family: 'Zilla Slab', serif;
+}
 body{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     margin: 0;
    /* padding: 0;*/
-    font-family: 'Zilla Slab', serif;
+    
     font-size: 30px;
     height: 100vh;
     overflow-wrap: break-word;
@@ -63,7 +66,7 @@ fieldset{
 }
 form{
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 5px black;
+    box-shadow: 0px 2px 5px rgb(134, 134, 134);
 }
 .top-description{
     background-color: rgb(240, 240, 240);
@@ -134,7 +137,13 @@ legend{
     border: none;
     border-radius: 12px;
     font-size: 1em;
+    box-shadow: 4px 4px 2px 1px rgba(255, 126, 5, 0.4);
 }
 .create:hover{
     background: linear-gradient(300deg, rgb(168, 69, 11), rgb(197, 130, 6));
+}
+.login{
+    margin-left: var(--left-margin);
+    margin-top: var(--left-margin);
+    font-size: .6em;
 }
