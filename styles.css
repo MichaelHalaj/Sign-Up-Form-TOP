@@ -117,6 +117,10 @@ input:invalid{
     outline: 2px solid rgb(201, 6, 6, .4);
     border: 2px solid red;
 }
+input:user-invalid{
+    outline: 2px solid rgb(201, 6, 6, .4);
+    border: 2px solid red;
+}
 .description:first-child{
     margin-top: 100px;
 }
