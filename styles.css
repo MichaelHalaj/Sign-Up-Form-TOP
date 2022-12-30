@@ -39,6 +39,19 @@ body{
     text-align: center;
     padding: 16px;
 }
+.credit{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: .2em;
+}
+.credit a{
+    color: white;
+}
 fieldset{
     border: 0 solid black;
     padding: 0;
@@ -113,6 +126,15 @@ legend{
 }
 .create{
     margin-left: var(--left-margin);
-    padding: 0;
-    background-color: rgb(224, 88, 9);
+    margin-top: var(--left-margin);
+    padding: 8px 16px;
+    background: linear-gradient(300deg, rgb(224, 88, 9), orange);
+    align-self: flex-start;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+}
+.create:hover{
+    background: linear-gradient(300deg, rgb(168, 69, 11), rgb(197, 130, 6));
 }
